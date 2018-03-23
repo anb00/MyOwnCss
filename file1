@@ -1,0 +1,58 @@
+html {
+  height: 100%
+}
+body {
+  font-family: verdana, sans-serif;
+  
+  padding-top:0px !important;
+}
+.control_background {
+  background: -webkit-gradient(linear, left top, left bottom, from(#bbf), to(#fff), color-stop(.5, #fff)) no-repeat;
+  background: -moz-linear-gradient(to bottom, #bbf, #fff 50%) no-repeat;
+}
+h2 {
+  margin-top: 0px;
+}
+.card {
+  /* works in Safari (Windows at least) */
+  background: -webkit-gradient(radial, 15% 25%, 20, 15% 25%, 700, from(#fff), to(#ddf));
+  /* even better in Chrome, get 100% spread instead of a fixed pixel value */
+  background: -webkit-radial-gradient(15% 25%, circle, #fff 20px, #ddf 100%);
+  background: -moz-radial-gradient(15% 25%, circle, #fff 20px, #ddf 100%);
+  padding: 20px 40px;
+  margin: 0 auto;
+  border-radius: 30px;
+  border: 1px solid white;
+  -webkit-box-shadow: 2px 2px 5px gray;
+  box-shadow: 2px 2px 5px gray;
+  width: 800px;
+}
+#wrapper {
+    width: 100%;
+    margin: 0 auto;
+}
+#last-step.card {
+  width: 750px;
+  margin-bottom: 15px;
+}
+.lower {
+    font-size: 18px;
+    font-weight: 400;
+}
+#ppwyc {
+    font-size: 17px;
+    color: firebrick;
+}
+#options_table {
+    margin-top: 10px;
+}
+#two {
+    margin-top: 20px;
+}
+.ideal-button {
+    width: 42px;
+    height: 42px;
+    cursor: pointer;
+    margin-top: -2px;
+    float: left;
+}
